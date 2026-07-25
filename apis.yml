@@ -1,24 +1,60 @@
 aid: cquotient
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cquotient.png
 name: CQuotient
-description: 'CQuotient is a company surfaced as a portfolio company of bain-capital-ventures and added
-  to the API Evangelist network as a stub for enrichment. Sector: commerce. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'CQuotient is the artificial intelligence and shopper-data technology that powers personalization
+  and predictive commerce for Salesforce B2C Commerce (Commerce Cloud) Einstein. Originally an independent
+  commerce-personalization startup, CQuotient was acquired by Demandware in 2013, and Demandware was in
+  turn acquired by Salesforce in 2016. Today the CQuotient engine underpins Einstein product recommendations,
+  predictive sort, Einstein search dictionaries, and shopper activity capture. Its developer surface is
+  the Salesforce B2C Commerce Einstein API (also referred to as the CQuotient API), documented within the
+  Salesforce Developers documentation rather than on a standalone CQuotient portal.'
 url: https://raw.githubusercontent.com/api-evangelist/cquotient/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
+x-status: acquired
+x-acquired-by: salesforce
 x-backed-by:
 - bain-capital-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Commerce
+- Ecommerce
+- Personalization
+- Artificial Intelligence
+- Recommendations
+- Retail
+- Salesforce Commerce Cloud
 apis: []
+common:
+- type: Documentation
+  url: https://developer.salesforce.com/docs/commerce/einstein-api/overview
+  name: B2C Commerce Einstein (CQuotient) API Documentation
+- type: APIReference
+  url: https://developer.salesforce.com/docs/commerce/einstein-api/references
+  name: B2C Commerce Einstein (CQuotient) API Reference
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
