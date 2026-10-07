@@ -1,0 +1,78 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://www.salesforce.com/agentforce/pricing/?bc=OTH
+sources:
+- https://www.salesforce.com/agentforce/pricing/?bc=OTH
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T112025
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: per-call
+delivery:
+  delivery: managed
+  method: page
+  read: '2026-10-07'
+published: true
+note: Salesforce Agentforce pricing page with consumption (Flex Credits/Conversations) and per-user options;
+  multiple currencies listed. Page notes pricing is informational and subject to change.
+plan_count: 8
+currency: USD
+plans:
+- name: Salesforce Foundations
+  price_text: $ 0
+  price: 0
+  currency: USD
+  period: month
+  included_quota: Agentforce Builder, Prompt Builder, Agent Script, Agentforce Coworker, Agentforce Vibes
+- name: Flex Credits
+  price_text: $ 500 USD/Per 100k Credits
+  price: 500
+  currency: USD
+  period: per-use
+  unit: per 100k credits
+  included_quota: Agentforce actions are 20 Flex Credits, while Agentforce Voice actions are 30 Flex Credits
+  overage: There is no overage penalty. If you exceed your entitlement, your rate is your contracted rate
+    billed monthly in arrears.
+- name: Conversations
+  price_text: $ 2 USD/Per conversation
+  price: 2
+  currency: USD
+  period: per-use
+  unit: per conversation
+  included_quota: Customer-facing Agents, Digital Wallet
+- name: Agentforce add-ons
+  price_text: $ 125 user / month
+  price: 125
+  currency: USD
+  period: month
+  unit: user
+  included_quota: Unmetered Agentforce usage for employees
+- name: Agentforce Industries add-ons
+  price_text: $ 150 user / month
+  price: 150
+  currency: USD
+  period: month
+  unit: user
+  included_quota: Everything in Sales Cloud & Service Cloud add-ons
+- name: Agentforce Max Editions
+  price_text: from $550 user / month
+  price: 550
+  currency: USD
+  period: month
+  unit: user
+  included_quota: Agentforce add-on included, 2.75M Flex Credits per org per year
+- name: Agentforce User License
+  price_text: $ 5 USD/User/Month (Requires Flex Credits)
+  price: 5
+  currency: USD
+  period: month
+  unit: user
+  included_quota: Metered Agentforce usage for employees
+- name: Help Agent Resolutions
+  price_text: $ 2
+  price: 2
+  currency: USD
+  period: per-use
+  unit: resolution
